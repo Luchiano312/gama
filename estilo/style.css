@@ -1,0 +1,182 @@
+body{
+    border: 0px;
+    background-color: #F9F9F9;
+}
+.lol{
+    border:2px solid#00ff00;
+}
+header{
+    padding: 28px;
+    background-color: brown;
+}
+
+.container{
+    margin: 0 auto;
+    width: 1150px;
+}
+.menu ul  {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    text-align: center;
+    text-transform: uppercase;
+}
+.sobre-mim{
+    text-align: center;
+    font-family: 'Roboto', sans-serif; 
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.sobre-mim p{
+    text-align: justify;
+}
+.sobre-mim img{
+    width: 330px;
+    border-radius: 50%;
+}
+.form-contato{
+    width: 52%;
+    margin: 0 auto;
+}
+.form-contato iframe{
+    width: 640px;
+    height: 728px;
+}
+footer{
+    background-color: brown;
+}
+.footer-rodape ul{
+    list-style: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;  
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+.footer-rodape li a{
+    margin: 0 24px;
+    text-decoration: none;
+    color: white;
+}
+.menu li a{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    padding-top: 10px;
+    color: white;
+}
+.section1{
+    border: 1px solid #e1e1e1;
+    border-radius: 3px;
+    margin-top: 10px;
+    background-color: white;
+}
+
+.section1 img{
+    width: 100%;  
+    -webkit-border-top-left-radius: 5px;
+-webkit-border-top-right-radius: 5px;
+-moz-border-radius-topleft: 5px;
+-moz-border-radius-topright: 5px;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+}
+.section1 h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    margin-left: 20px;
+}
+.section1 h3{
+    font-family: 'Roboto', sans-serif;
+    color: red;
+    margin-left: 20px;
+}
+.section1 h5{
+    margin-left: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.section1 p{
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.section2 img{
+    width: 100%;   
+    -webkit-border-top-left-radius: 5px;
+-webkit-border-top-right-radius: 5px;
+-moz-border-radius-topleft: 5px;
+-moz-border-radius-topright: 5px;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;   
+}
+.section2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+.section2 h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin: 16px;
+    text-align: justify;
+}
+.section2 div{
+    width: 360px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid #e1e1e1;
+    background-color: white;
+    justify-content: space-between;
+    border-radius: 3px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.section2 div:hover{
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+}
+.section2 p{
+    text-align: justify;
+    margin-left: 14px;
+    margin-right: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+.section2 h3{
+    margin-left: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+.section2 h5{
+    margin-left: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+.section3{
+    display: flex;
+    justify-content: center;
+}
+.section3 .videos{
+    width: 50%;
+    margin-left: 8px;
+}
+.destaque{
+    background-image: url(https://img.r7.com/images/novo-topo-coronavirus-09042020114237243?dimensions=1440x120);
+    height: 120px;
+}
+/* mobile version*/
+
+  @media screen and (max-width: 480px) and (min-width: 411px) {
+    .menu ul {
+     display: flex;
+     justify-content: space-around;
+     flex-direction: column;
+     margin-left: -46px;
+  }
+    
+}
